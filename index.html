@@ -18,7 +18,7 @@
     <link rel="icon" type="image/x-icon" href="images/favicons/favicon.ico">
     <style>
         .landing-image {
-            background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(0 0 0)), url(images/homeBg.jpg);
+            background-image: url(images/homeBg.jpg);
             background-size: cover;
             background-position: center;
             height: 100vh;
@@ -31,12 +31,21 @@
             transition: opacity 500ms 0ms ease-in-out;
 
             @media screen and (max-width: 580px) {
-                background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(69 69 69)), url(images/homeBg.jpg);
+                background-image: url(images/homeBg.jpg);
             }
         }
 
         * {
             font-family: "Style Script", cursive !important;
+        }
+
+        h1,
+        h2 {
+            text-shadow: 3px 0 black, 0 -2px black, 4px 0 black, 0 2px #000000;
+
+            @media screen and (max-width: 580px) {
+                text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px #000000 !important;
+            }
         }
 
         h1,
@@ -52,11 +61,15 @@
 
         .save-date {
             text-align: right;
+            padding-top: 20%;
+            padding-left: 60%;
 
             @media screen and (max-width: 580px) {
                 position: absolute;
                 top: 10%;
                 right: 20%;
+                padding-top: 0 !important;
+                padding-left: 0 !important;
             }
         }
 
