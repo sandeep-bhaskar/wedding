@@ -231,7 +231,7 @@ a:hover {
 }
 
 .home-img {
-  background-image: url(Images/home.jpg);
+  background-image: url(images/home.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -786,7 +786,7 @@ footer .to-top-wrapper .to-top:hover {
 
 
 .logo-name{
-  background-image: url(Images/LogoSS.png);
+  background-image: url(images/LogoSS.png);
   background-size: cover;
   background-position: center;
   width: 49%;
