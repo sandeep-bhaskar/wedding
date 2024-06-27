@@ -54,6 +54,7 @@
             text-align: right;
             padding-top: 20%;
             padding-left: 60%;
+            color: white;
 
             @media screen and (max-width: 580px) {
                 position: absolute;
@@ -61,6 +62,7 @@
                 right: 20%;
                 padding-top: 0 !important;
                 padding-left: 0 !important;
+                color: black;
             }
         }
 
@@ -68,6 +70,22 @@
             @media screen and (max-width: 580px) {
                 width: 60%;
                 height: 90px;
+            }
+        }
+
+        .save-date a {
+            background: black;
+            @media screen and (max-width: 580px) {
+                font-size: 20px !important;
+            }
+        }
+
+        .save-date a:hover {
+            background: white;
+            color: black !important;
+            @media screen and (max-width: 580px) {
+                background: black;
+                color: white;
             }
         }
     </style>
@@ -78,10 +96,12 @@
     <section class="landing-image">
         <div class="w-100">
             <div class="row">
-                <div class="col-12 mt-5 text-white save-date">
+                <div class="col-12 mt-5 save-date">
                     <h1 class="caption">Save The Date</h1>
                     <h2>August 17th 2024</h2>
-                    <a href="home.html" class="btn btn primary text-white">Journey Begins...</button>
+                    <a href="/home.html" class="btn btn primary text-white">
+                        Read More...</a>
+                        
                 </div>
             </div>
         </div>
@@ -92,7 +112,9 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 
-        <a href="https://www.freecounterstat.com" title="website counter widget"><img src="https://counter8.optistats.ovh/private/freecounterstat.php?c=wtgf87k3c4s48lfz5f8qk828epdmebpn" border="0" title="website counter widget" alt="website counter widget"></a>
+    <a href="https://www.freecounterstat.com" title="website counter widget"><img
+            src="https://counter8.optistats.ovh/private/freecounterstat.php?c=wtgf87k3c4s48lfz5f8qk828epdmebpn"
+            border="0" title="website counter widget" alt="website counter widget"></a>
 </body>
 
 </html>

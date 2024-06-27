@@ -402,18 +402,18 @@ a:hover {
 }
 
 .gallery-img:nth-child(1) {
-  background-image: url(images/1.jpg);
+  background-image: url(images/11.jpg);
   background-position-x: right;
 }
 
 .gallery-img:nth-child(3) {
-  background-image: url(images/home.jpg);
+  background-image: url(images/10.jpg);
 }
 
 .gallery-img:nth-child(2) {
   background-position-y: top;
-  background-image: url(images/timeline.jpg);
-  background-position-x: -160px;
+  background-image: url(images/9.jpg);
+  background-position-x: -46px;
 }
 
 @media (max-width: 1000px) {
